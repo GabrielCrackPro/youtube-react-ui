@@ -1,0 +1,26 @@
+.video-card{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  height: 200px;
+}
+.video-card #thumbnail{
+  height: 171px;
+  width: 305px;
+}
+.video-title{
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+.video-title img{
+  border-radius: 100px;
+  height: 36px;
+  width: 36px;
+}
+.video-info{
+  margin-left: 50px;
+}
+.video-info #date{
+  color: #767676;
+}

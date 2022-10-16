@@ -1,0 +1,16 @@
+.videos{
+  color: #fff;
+  position: absolute;
+  top: 130px;
+  left: 240px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  overflow-y: scroll
+}
+.move{
+  left: 0;
+  z-index: -1;
+  transition: all .4s ease;
+}

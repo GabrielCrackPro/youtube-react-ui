@@ -1,0 +1,16 @@
+.side-element{
+  display: flex;
+  padding: 11px;
+  gap: 20px;
+  width: 14.5vw;
+}
+.side-element:hover{
+  background: #343434;
+  cursor: pointer;
+}
+.side-element #icon{
+  color: #7f7f80;
+}
+.selected{
+  background: #343434;
+}

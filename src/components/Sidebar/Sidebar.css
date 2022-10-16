@@ -1,0 +1,25 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 16vw;
+  height: 100vh;
+  overflow-y: scroll;
+  color: #fff;
+  background: #232323;
+}
+.sidebar-text{
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.sidebar hr{
+  margin-top: 5px;
+  color: #3a393a;
+}
+.hide{
+  width: 40px;
+  z-index: 20;
+  padding: 10px;
+  color: #232323;
+}
